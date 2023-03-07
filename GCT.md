@@ -1,0 +1,5 @@
+# Graph-Geometric Message Passing via Graph Convolution Transformer for FKP Regression
+
+# Abstract
+> In this paper, the forward kinematics problem (FKP) of the Gough-Stewart platform (GSP) with 6-DoF is estimated using deep learning methodology. We propose a graph convolution transformer model by systematically analyzing some challenges encountered since using deep learning regression on large-scale data. We attempt to leverage Graph-Geometric message as input and SVD orthogonalization for $SO(3)$ manifold learning. Simultaneously, this is the first study that a robot with a sophisticated closed-loop mechanism is described by a graph structure, and a specific deep learning model is proposed to solve the FKP of the GSP. The qualitative and quantitative experiments on our dataset demonstrate the feasibility and superiority of our method over others. 
+Results show that our method can guarantee error percentages of translation and rotation less than 1mm and $\text{1}^{\circ}$ are 81.9% and 96.7%, respectively.
